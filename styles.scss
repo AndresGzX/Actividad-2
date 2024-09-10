@@ -1,0 +1,40 @@
+$primary-color: #007bff;
+$secondary-color: rgb(9, 7, 7);
+$font-size-base: 16px;
+$font-family-base: "Arial", sans-serif;
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $secondary-color;
+}
+
+// Barra de navegación
+.navbar {
+    background-color: $primary-color;
+    .nav-link {
+        color: rgb(25, 2, 128);
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+
+.jumbotron {
+    background-color: $primary-color;
+    color: rgb(255, 255, 255);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+
+form {
+    .form-control {
+        border-radius: 0;
+    }
+    button {
+        background-color: $primary-color;
+        border: none;
+    }
+}
